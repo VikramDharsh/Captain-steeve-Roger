@@ -1,19 +1,17 @@
-package com.xworkz.learningConstructor;
+package com.xworkz.Vikram;
+
+import com.xworkz.dharsh.F22;
+import com.xworkz.dharsh.F22WarJet;
 
 public class F22Runner {
+	public static void main(String[] args)
+	{
+F22 f35=new F22();
+f35.getType(); // accesing the private specified variable of different package// we can only read it cant modify in another class of different package
 
+F22WarJet f35WarJet= new F22WarJet();
+f35WarJet.geName();
 
-	public static void main(String[] args) {
-		 String[] role= {"multirole ","air supirior","missile carrier"};
-		 String[] origin= {"usa","NATO air force"};
-		 String[] varients={"F35","F16"};
-		 String[] features= {"air to air strike","air to ground strike"};
-		
-		 F22 f22;
-		 f22=new F22(role,origin,varients,features);
-		 
-		 f22.expose();
-		 
 	}
 
 }

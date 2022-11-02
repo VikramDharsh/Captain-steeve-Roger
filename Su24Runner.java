@@ -1,16 +1,17 @@
 package com.xworkz.Vikram;
 
-import com.xworkz.dharsh.J10C;
-import com.xworkz.dharsh.J10CWarJet;
+import com.xworkz.dharsh.Su24;
+import com.xworkz.dharsh.Su24WarJet;
 
-public class J10CRunner {
+public class Su24Runner {
 	public static void main(String[] args)
 	{
-		J10C f35=new J10C();
+		Su24 f35=new Su24();
 f35.getType(); // accesing the private specified variable of different package //we can only read it cant modify in another class of different package
 
-J10CWarJet f35WarJet= new J10CWarJet();
+Su24WarJet f35WarJet= new Su24WarJet();
 f35WarJet.geName();
 
 	}
+
 }
