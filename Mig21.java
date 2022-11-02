@@ -1,21 +1,22 @@
 package com.xworkz.dharsh;
 
-public class F16 {
+public class Mig21 {
 	 private String type;
 	 String madeBy;
 	 String mode;
 	 String commander;           
 	 String commanderName;       // im not initilizing any variables
 	 String origin;
-	 String use;    // variable with out a specifer // we cant modify this variables in different packages
-	              // we can only read it in diffrent packages
+	 String use;  // variable with out a specifer // we cant modify this variables in different packages
+    // we can only read it in diffrent packages
+
 	 long cost;
 	 String machNo;
 	 boolean combat;
 	 int Crew;
 
 
- public void display()
+public void display()
 {
 	System.out.println("type :"+type);
 	System.out.println("madeBy :"+madeBy);
@@ -28,15 +29,13 @@ public class F16 {
 	System.out.println("combat :"+combat);
 	System.out.println("Crew :"+Crew);
 }
- 
- void settype(String type)
- {
+
+void settype(String type)
+{
 	this.type=type; 
- }
- public void  getType()
- {
+}
+public void  getType()
+{
 	 System.out.println("type :"+type);
- }
- 
- 
+}
 }
